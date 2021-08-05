@@ -63,6 +63,7 @@ ul li a:hover {
 }
 
 .content h1 {
+  font-family: "Archivo Black";
   font-size: 5.063vw;
 }
 
@@ -87,7 +88,7 @@ button:hover {
 }
 
 .section1 {
-  padding-top: 5em;
+  padding-top: 5vw;
   text-align: center;
 }
 
@@ -123,7 +124,7 @@ button:hover {
 
 .container-section2 h1{
   text-align: center;
-  margin: 0 0 .5em;
+  margin: 0 0 .5vw;
   font-size: 3.375vw;
   color: white;
 }
@@ -135,3 +136,4 @@ button:hover {
   color: white;
   font-size: 30px;
 }
+

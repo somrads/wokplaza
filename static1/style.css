@@ -136,4 +136,23 @@ button:hover {
   color: white;
   font-size: 30px;
 }
+.section4{
+  display: block;
+  width: 100%;
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+
+.contact-row{
+  display: flex;
+}
+
+.location, .openingsuren{
+    flex: 1;
+    text-align: center;
+}
+
 

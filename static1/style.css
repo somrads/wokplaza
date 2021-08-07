@@ -69,7 +69,7 @@ ul li a:hover {
 }
 
 .content h1 {
-  font-size: 4.2vw;
+  font-size: 5.2vw;
   margin-bottom: 0%;
 }
 
@@ -100,11 +100,12 @@ button:hover {
 
 .container h1 {
   margin: 0%;
-  font-size: 3.375vw;
+  font-size: 4.375vw;
 }
 
 .container p {
-  font-size: 1.8vw;
+  font-size: 24px;
+  line-height: 2vw;
 
 }
 

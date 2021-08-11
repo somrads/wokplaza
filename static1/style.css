@@ -61,7 +61,7 @@ ul li a:hover {
 
 .content {
   position: absolute;
-  top: 50%;
+  top: 25vw;
   left: 50%;
   transform: translate(-50%, -50%);
   color: #fff;
@@ -96,6 +96,7 @@ button:hover {
 .section1 {
   padding-top: 5vw;
   text-align: center;
+  padding-bottom: 5vw;
 }
 
 .container h1 {
@@ -110,7 +111,8 @@ button:hover {
 }
 
 .section2 {
-  padding-bottom: 4vw;
+  
+  padding-bottom: 5vw;
 }
 
 .container-section2 {
@@ -129,6 +131,7 @@ button:hover {
   align-items: center;
 }
 
+
 .container-section2 h1{
   text-align: center;
   margin: 0 0 .5vw;
@@ -143,7 +146,7 @@ button:hover {
   color: white;
   font-size: 30px;
 }
-.section4{
+/* .section4{
   display: block;
   width: 100%;
   max-width: 1200px;
@@ -151,11 +154,11 @@ button:hover {
   margin-left: auto;
   padding-right: 40px;
   padding-left: 40px;
-}
+} */
 
-.contact-row{
+/* .contact-row{
   display: flex;
-}
+} */
 
 .location, .openingsuren{
     flex: 1;
@@ -171,3 +174,34 @@ p{
 }
 
 
+
+
+.container-gallery{
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  grid-template-rows: repeat(2, 50%);
+  margin: 0 auto;
+  max-width: 100%;
+  
+}
+
+img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.contact-row{
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  grid-template-rows: repeat(2, 50%);
+  margin: 3vw auto;
+  max-width: 100%;
+}
+
+.contact-row .location .openingsuren{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  text-align: center;
+}

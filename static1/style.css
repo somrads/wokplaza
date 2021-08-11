@@ -23,11 +23,13 @@ nav {
 
 .logo a {
   font-family: 'Baloo Chettan 2', cursive;
-  margin-left: 100px;
+  margin-left: 50px;
   font-size: 30px;
   color: red;
   font-weight: bold;
 }
+
+
 
 a {
   text-decoration: none;
@@ -37,7 +39,7 @@ a {
 
 ul {
   margin: 0px;
-  margin-right: 40vw;
+  margin-right: 44.5vw;
 }
 
 ul li {
@@ -131,7 +133,6 @@ button:hover {
   align-items: center;
 }
 
-
 .container-section2 h1{
   text-align: center;
   margin: 0 0 .5vw;
@@ -146,19 +147,6 @@ button:hover {
   color: white;
   font-size: 30px;
 }
-/* .section4{
-  display: block;
-  width: 100%;
-  max-width: 1200px;
-  margin-right: auto;
-  margin-left: auto;
-  padding-right: 40px;
-  padding-left: 40px;
-} */
-
-/* .contact-row{
-  display: flex;
-} */
 
 .location, .openingsuren{
     flex: 1;
@@ -172,9 +160,6 @@ button:hover {
 p{
   font-family: 'Roboto', sans-serif;
 }
-
-
-
 
 .container-gallery{
   display: grid;
@@ -204,4 +189,8 @@ img{
   width: 100%;
   object-fit: cover;
   text-align: center;
+}
+
+.navbar li a {
+  font-family: 'Roboto', sans-serif;
 }

@@ -194,3 +194,9 @@ img{
 .navbar li a {
   font-family: 'Roboto', sans-serif;
 }
+
+.icons{
+  display: flex;
+  width: 6%;
+  height: auto;
+}

@@ -11,17 +11,13 @@ body {
   box-sizing: border-box;
 }
 
-.main {
-  width: 100%;
-}
+
 
 nav {
-  width: 100%;
-  /* background-color: black; */
-  height: 80px;
-  line-height: 80px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  padding: 30px 2%;
 }
 
 .logo a {
@@ -32,7 +28,10 @@ nav {
   font-weight: bold;
 }
 
-
+.icons{
+  line-height: 80px;
+  margin-right: 2.5%;
+}
 
 a {
   text-decoration: none;
@@ -42,22 +41,23 @@ a {
 
 ul {
   margin: 0px;
-  margin-right: 44.5vw;
 }
 
 ul li {
-  float: left;
-  padding: 0px 10px;
-  list-style: none;
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+ul li a{
+  transition: all 0.3s ease 0s;
 }
 
 ul li a:hover {
   color: red;
 }
 
-.header {
+.background-image {
   background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/static1/images/wok3.jpeg");
-  background-position: 0 70%;
   background-size: cover;
   background-repeat: no-repeat;
   height: 50vw;

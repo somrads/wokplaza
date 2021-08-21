@@ -1,11 +1,14 @@
+:root {
+  --text-color1: rgb(255,255,255);
+  --font-title: 'Baloo Chettan 2', cursive;
+  --font-subtitle:  'Open Sans', sans-serif;
+  --font-paragraph: 'Roboto', sans-serif;
+}
+
 body {
   margin: 0%;
   padding: 0%;
   box-sizing: border-box;
-}
-
-h1{
-  font-family: 'Baloo Chettan 2', cursive;
 }
 
 .main {
@@ -22,9 +25,9 @@ nav {
 }
 
 .logo a {
-  font-family: 'Baloo Chettan 2', cursive;
-  margin-left: 50px;
-  font-size: 30px;
+  font-family: var(--font-title);
+  margin: 2rem;
+  font-size: 4ch;
   color: red;
   font-weight: bold;
 }
@@ -70,13 +73,18 @@ ul li a:hover {
   text-align: center;
 }
 
+h1{
+  font-family: var(--font-title);
+  color: var(--text-color1);
+}
+
 .content h1 {
   font-size: 5.2vw;
   margin-bottom: 0%;
 }
 
 .content p {
-  font-size: 20px;
+  font-size: clamp(2em, 50%, 3em);
 }
 
 button {
@@ -104,6 +112,8 @@ button:hover {
 .container h1 {
   margin: 0%;
   font-size: 4.375vw;
+  --text-color1: black;
+  
 }
 
 .container p {
@@ -154,11 +164,13 @@ button:hover {
 }
 
 .location, .openingsuren h3{
-  font-family: 'Open Sans', sans-serif;
+  font-family: var(--font-subtitle);
+
+  
 }
 
 p{
-  font-family: 'Roboto', sans-serif;
+  font-family: var(--font-paragraph);
 }
 
 .container-gallery{
@@ -168,9 +180,10 @@ p{
   margin: 0 auto;
   max-width: 100%;
   
+  
 }
 
-img{
+.container-gallery img{
   height: 100%;
   width: 100%;
   object-fit: cover;
@@ -197,6 +210,11 @@ img{
 
 .icons{
   display: flex;
-  width: 6%;
+  justify-content: center;
+  align-items: center;
+}
+
+.icons img{
+  width: 1.5vw;
   height: auto;
 }

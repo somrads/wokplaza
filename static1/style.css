@@ -28,10 +28,28 @@ nav {
   font-weight: bold;
 }
 
-.icons{
-  line-height: 80px;
-  margin-right: 2.5%;
+
+.icons img:nth-child(2){
+  width: 2vw;
+  height: auto;
 }
+
+.navbar li a {
+  font-family: var(--font-paragraph);
+}
+
+.icons{
+  display: flex;
+  justify-content: center;
+}
+
+.icons img:nth-child(1){
+  width: 20px;
+  height: auto;
+}
+
+
+
 
 a {
   text-decoration: none;
@@ -204,17 +222,3 @@ p{
   text-align: center;
 }
 
-.navbar li a {
-  font-family: 'Roboto', sans-serif;
-}
-
-.icons{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.icons img{
-  width: 1.5vw;
-  height: auto;
-}

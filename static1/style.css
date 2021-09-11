@@ -11,8 +11,6 @@ body {
   box-sizing: border-box;
 }
 
-
-
 nav {
   display: flex;
   justify-content: space-between;
@@ -195,6 +193,10 @@ p{
   grid-template-rows: repeat(2, 50%);
   margin: 3vw auto;
   max-width: 100%;
+}
+
+.contact-row p, h3{ 
+ font-size: 1.3em;
 }
 
 .contact-row .location .openingsuren{

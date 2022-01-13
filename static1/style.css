@@ -6,45 +6,52 @@
 }
 
 body {
-  margin: 0%;
-  padding: 0%;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
 nav {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  padding: 30px 2%;
+  padding: 2vw 2vw;
+  
 }
 
 .logo a {
   font-family: var(--font-title);
-  margin: 2rem;
-  font-size: 4ch;
+  margin: 2vw;
+  font-size: clamp(1rem, 0.5909rem + 1.8182vw, 3.5rem);
+  /* font-size: 4ch; */
   color: red;
   font-weight: bold;
+  margin-right: 55vw;
 }
 
-
-.icons img:nth-child(2){
-  width: 2vw;
-  height: auto;
-}
 
 .navbar li a {
   font-family: var(--font-paragraph);
+  
 }
 
-.icons{
-  display: flex;
-  justify-content: center;
+
+
+/* .fbIcon img{
+  position: relative;
+  display: inline-block;
+  top: 0;
+  margin-left: 3vw;
+  width: 1.5vw;
+  height: 1.5vw;
 }
 
-.icons img:nth-child(1){
-  width: 20px;
-  height: auto;
-}
+.taIcon img{
+  position: relative;
+  display: inline-block;
+  top: 0.4vw;
+  width: 2vw;
+  height: 2vw;
+} */
 
 
 
@@ -76,7 +83,7 @@ ul li a:hover {
   background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/static1/images/wok3.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 50vw;
+  height: 55vw;
  
 }
 

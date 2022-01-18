@@ -11,6 +11,460 @@ body {
   box-sizing: border-box;
 }
 
+/****************************************************************************************
+*                                                                                       * 
+*                                                                                       *
+*                                                                                       * 
+*                                     RESPONSIVE MOBILE                                 *
+*                                                                                       * 
+*                                                                                       * 
+*                                                                                       * 
+****************************************************************************************/
+
+
+
+@media screen and (max-width:600px){
+
+  nav {
+    display: flex;
+    align-items: center;
+    padding: 2vw 2vw;
+    
+  }
+  
+  .logo a {
+    font-family: var(--font-title);
+    margin: 2vw;
+    font-size: clamp(1rem, 0.5909rem + 1.8182vw, 0.5rem);
+    /* font-size: 4ch; */
+    color: red;
+    font-weight: bold;
+    margin-right: 24vw;
+  }
+  
+  
+  .navbar li a {
+    font-family: var(--font-paragraph);
+    display: none;
+  }
+  
+  
+  
+  a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+  }
+  
+  ul {
+    margin: 0px;
+  }
+  
+  ul li {
+    display: inline-block;
+    padding: 0px 20px;
+  }
+  
+  ul li a{
+    transition: all 0.3s ease 0s;
+  }
+  
+  ul li a:hover {
+    color: red;
+  }
+  
+  .background-image {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/static1/images/wok3.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 150vw;
+   
+  }
+  
+  .content {
+    position: absolute;
+    top: 70vw;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+  }
+  
+  h1{
+    font-family: var(--font-title);
+    color: var(--text-color1);
+  }
+  
+  .content h1 {
+    font-size: 6vw;
+    margin-bottom: 0%;
+  }
+  
+  .content p {
+    font-size: clamp(1.4em, 50%, 3em);
+  }
+  
+  button {
+    background: none;
+    border: 1px solid;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 25px;
+    border-radius: 6px;
+    transition: 0.5s all ease;
+  
+  }
+  
+  button:hover {
+    background: black;
+    color: red;
+  }
+  
+  .section1 {
+    padding-top: 5vw;
+    text-align: center;
+    padding-bottom: 5vw;
+  }
+  
+  .container h1 {
+    margin: 0%;
+    font-size: 5vw;
+    --text-color1: black;
+    
+  }
+  
+  .container p {
+    font-size: 3vw;
+    
+  
+  }
+  
+  .section2 {
+    
+    padding-bottom: 5vw;
+  }
+  
+  .container-section2 {
+    display: block;
+    width: 100%;
+    
+    margin-right: auto;
+    margin-left: auto;
+  
+  }
+  
+  .menu-board {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  
+  .container-section2 h1{
+    text-align: center;
+    margin: 0 0 .5vw;
+    font-size: 5vw;
+    color: white;
+  }
+  
+  .banner{
+    padding: 30px;
+    text-align: center;
+    background: black;
+    color: white;
+    font-size: 30px;
+  }
+  
+  .location, .openingsuren, .info{
+      text-align: center;
+      padding: 4vw;
+
+  }
+  
+  .location, .openingsuren h3, .info{
+    font-family: var(--font-subtitle);
+  
+    
+  }
+  
+  p{
+    font-family: var(--font-paragraph);
+  }
+  
+  .container-gallery{
+    display: grid;
+    grid-template-columns: repeat(1, 100%);
+    grid-template-rows: repeat(4, 25%);
+    margin: 0 auto;
+    max-width: 100%;
+    
+    
+  }
+  
+  .container-gallery img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .contact-row{
+    margin: 3vw auto;
+
+    max-width: 100%;
+  }
+  
+  .contact-row p, h3{ 
+   font-size: 2.5vw;
+  }
+  
+  .contact-row .location .openingsuren .info{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    text-align: center;
+  }
+
+footer{
+text-align: center;
+}
+
+}
+
+
+
+
+/****************************************************************************************
+*                                                                                       * 
+*                                                                                       *
+*                                                                                       * 
+*                                     RESPONSIVE TABLET                                 *
+*                                                                                       * 
+*                                                                                       * 
+*                                                                                       * 
+****************************************************************************************/
+
+
+@media screen and (min-width:601px) and (max-width:1024px){
+  nav {
+    display: flex;
+    align-items: center;
+    padding: 2vw 2vw;
+    
+  }
+  
+  .logo a {
+    font-family: var(--font-title);
+    margin: 2vw;
+    font-size: clamp(1rem, 0.5909rem + 1.8182vw, 3.5rem);
+    /* font-size: 4ch; */
+    color: red;
+    font-weight: bold;
+    margin-right: 24vw;
+  }
+  
+  
+  .navbar li a {
+    font-family: var(--font-paragraph);
+    
+  }
+  
+  
+  
+  a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+  }
+  
+  ul {
+    margin: 0px;
+  }
+  
+  ul li {
+    display: inline-block;
+    padding: 0px 20px;
+  }
+  
+  ul li a{
+    transition: all 0.3s ease 0s;
+  }
+  
+  ul li a:hover {
+    color: red;
+  }
+  
+  .background-image {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/static1/images/wok3.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 150vw;
+   
+  }
+  
+  .content {
+    position: absolute;
+    top: 70vw;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+  }
+  
+  h1{
+    font-family: var(--font-title);
+    color: var(--text-color1);
+  }
+  
+  .content h1 {
+    font-size: 6vw;
+    margin-bottom: 0%;
+  }
+  
+  .content p {
+    font-size: clamp(1.4em, 50%, 3em);
+  }
+  
+  button {
+    background: none;
+    border: 1px solid;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 25px;
+    border-radius: 6px;
+    transition: 0.5s all ease;
+  
+  }
+  
+  button:hover {
+    background: black;
+    color: red;
+  }
+  
+  .section1 {
+    padding-top: 5vw;
+    text-align: center;
+    padding-bottom: 5vw;
+  }
+  
+  .container h1 {
+    margin: 0%;
+    font-size: 5vw;
+    --text-color1: black;
+    
+  }
+  
+  .container p {
+    font-size: 3vw;
+    
+  
+  }
+  
+  .section2 {
+    
+    padding-bottom: 5vw;
+  }
+  
+  .container-section2 {
+    display: block;
+    width: 100%;
+    
+    margin-right: auto;
+    margin-left: auto;
+  
+  }
+  
+  .menu-board {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  
+  .container-section2 h1{
+    text-align: center;
+    margin: 0 0 .5vw;
+    font-size: 5vw;
+    color: white;
+  }
+  
+  .banner{
+    padding: 30px;
+    text-align: center;
+    background: black;
+    color: white;
+    font-size: 30px;
+  }
+  
+  .location, .openingsuren, .info{
+      text-align: center;
+      padding: 4vw;
+
+  }
+  
+  .location, .openingsuren h3, .info{
+    font-family: var(--font-subtitle);
+  
+    
+  }
+  
+  p{
+    font-family: var(--font-paragraph);
+  }
+  
+  .container-gallery{
+    display: grid;
+    grid-template-columns: repeat(1, 100%);
+    grid-template-rows: repeat(4, 25%);
+    margin: 0 auto;
+    max-width: 100%;
+    
+    
+  }
+  
+  .container-gallery img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .contact-row{
+    margin: 3vw auto;
+
+    max-width: 100%;
+  }
+  
+  .contact-row p, h3{ 
+   font-size: 1.3em;
+  }
+  
+  .contact-row .location .openingsuren .info{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    text-align: center;
+  }
+
+footer{
+text-align: center;
+}
+
+}
+
+
+/****************************************************************************************
+*                                                                                       * 
+*                                                                                       *
+*                                                                                       * 
+*                                    RESPONSIVE DESKTOP                                 *
+*                                                                                       * 
+*                                                                                       * 
+*                                                                                       * 
+****************************************************************************************/
+
+
+
+@media screen and (min-width:1025px) {
+
 nav {
   display: flex;
   align-items: center;
@@ -181,12 +635,11 @@ button:hover {
   font-size: 30px;
 }
 
-.location, .openingsuren{
-    flex: 1;
+.location, .openingsuren, .info{
     text-align: center;
 }
 
-.location, .openingsuren h3{
+.location, .openingsuren h3, .info{
   font-family: var(--font-subtitle);
 
   
@@ -214,8 +667,8 @@ p{
 
 .contact-row{
   display: grid;
-  grid-template-columns: repeat(2, 50%);
-  grid-template-rows: repeat(2, 50%);
+  grid-template-columns: repeat(3, 33%);
+  grid-template-rows: repeat(3, 33%);
   margin: 3vw auto;
   max-width: 100%;
 }
@@ -230,4 +683,8 @@ p{
   object-fit: cover;
   text-align: center;
 }
+.info{
 
+}
+
+}
